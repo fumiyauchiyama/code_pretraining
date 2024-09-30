@@ -1,0 +1,6 @@
+model_name: 'openai-community/gpt2-medium'
+custom_model_config:
+  n_ctx: 2048
+  n_positions: 2048
+custom_tokenizer_config:
+  model_max_length: 2048

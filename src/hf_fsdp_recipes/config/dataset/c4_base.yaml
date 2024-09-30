@@ -1,0 +1,7 @@
+load_dataset:
+  _target_: "datasets.load_dataset"
+  path: "allenai/c4"
+  name: "en"
+  split: "train[:500000]"
+
+content_column_name: "text"

@@ -1,0 +1,3 @@
+model_name: 'TinyLlama/TinyLlama-1.1B-step-50K-105b'
+custom_model_config:
+  num_hidden_layers: 32

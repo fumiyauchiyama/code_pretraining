@@ -1,0 +1,3 @@
+model_name: 'TinyLlama/TinyLlama_v1.1'
+custom_model_config:
+  intermediate_size: 3000

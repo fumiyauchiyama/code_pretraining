@@ -1,0 +1,8 @@
+output_dir: "/home/uchiyama.fumiya/ucllm/ucllm/program/outputs/models"
+batch_size: 4
+test_batch_size: 4
+lr: 1.0e-4
+min_lr: 3.3e-6
+epochs: 3
+run_validation: true
+save_model: true

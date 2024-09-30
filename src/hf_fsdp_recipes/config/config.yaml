@@ -1,0 +1,7 @@
+defaults:
+   - model: gpt2_base
+   - dataset: wikitext_base
+   - preprocess: preprocess_base
+   - train: train_base
+   - validation: validation_base
+   - exec: fsdp

@@ -1,0 +1,5 @@
+load_dataset:
+  _target_: "datasets.load_dataset"
+  path: "fumiyau/utllm-program-fineweb-1m"
+
+content_column_name: "text"

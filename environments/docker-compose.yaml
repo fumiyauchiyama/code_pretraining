@@ -1,0 +1,20 @@
+version: '3'
+services:
+  ucllm:
+    build:
+      context: .
+      args:
+        USER_ID: ${UID}
+        GROUP_ID: ${GID}
+    runtime: nvidia
+    ipc: host
+    ulimits:
+      memlock: -1
+      stack: 67108864
+    volumes:
+      - /home/uchiyama.fumiya/ucllm:/home/uchiyama.fumiya/ucllm
+      - /home/uchiyama.fumiya/.cache:/home/uchiyama.fumiya/.cache
+    working_dir: /home/uchiyama.fumiya/ucllm
+    user: "${UID}:${GID}"
+    container_name: ucllm_ch_fumiyau_2
+    tty: true

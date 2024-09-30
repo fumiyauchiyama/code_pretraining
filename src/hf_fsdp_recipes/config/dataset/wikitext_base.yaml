@@ -1,0 +1,7 @@
+load_dataset:
+  _target_: "datasets.load_dataset"
+  path: "wikitext"
+  name: "wikitext-103-v1"
+  split: "train"
+
+content_column_name: "text"

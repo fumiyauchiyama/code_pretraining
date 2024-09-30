@@ -1,0 +1,8 @@
+load_dataset:
+  _target_: "datasets.load_dataset"
+  path: "bigcode/the-stack"
+  data_dir: "data/ocaml"
+  split: "train[:150000]"
+  verification_mode: "no_checks"
+
+content_column_name: "content"

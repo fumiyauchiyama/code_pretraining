@@ -1,0 +1,7 @@
+load_dataset:
+  _target_: "datasets.load_dataset"
+  path: "wikipedia"
+  name: "20220301.en"
+  split: "train[:150000]"
+
+content_column_name: "text"

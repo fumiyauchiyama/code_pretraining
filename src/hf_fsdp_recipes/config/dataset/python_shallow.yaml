@@ -1,0 +1,5 @@
+load_dataset:
+  _target_: "datasets.load_from_disk"
+  dataset_path : "/home/uchiyama.fumiya/ucllm/ucllm/program/outputs/data/python-0-8"
+
+content_column_name: "content"

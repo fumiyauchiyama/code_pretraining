@@ -1,0 +1,8 @@
+output_dir: "/scratch/acc13097es/models/ucllm_program_fsdp"
+batch_size: 32
+test_batch_size: 32
+lr: 1.0e-4
+min_lr: 3.3e-6
+epochs: 5
+run_validation: true
+save_model: true

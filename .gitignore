@@ -1,0 +1,15 @@
+models
+.venv
+wandb
+data
+.hf_cache
+.hf_datasets_cache
+.mypy_cache
+logs
+outputs
+notes
+hostfile
+apex
+.venv_ds
+myenv
+*.out

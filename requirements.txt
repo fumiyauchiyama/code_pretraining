@@ -1,0 +1,8 @@
+transformers==4.40.1
+datasets
+accelerate
+wandb
+fire
+mpi4py
+matplotlib
+hydra-core

@@ -1,0 +1,17 @@
+preprocess: ["skip"]
+
+avoid_short_sample:
+  min_token_length: 1
+
+shuffle:
+  seed: 42
+
+select:
+  num_total_samples: 150000
+
+train_test_split:
+  test_size: 0.01
+  seed: 42
+
+num_total_tokens: 600000000
+

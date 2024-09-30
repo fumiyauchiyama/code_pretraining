@@ -1,0 +1,7 @@
+sharding_strategy: 'FULL_SHARD'
+checkpoint_type: 'FULL_STATE_DICT'
+limit_all_gathers: true
+fsdp_activation_checkpointing: true
+save_optimizer: false
+mixed_precision: true
+use_fp16: true
